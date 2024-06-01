@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import axios from 'axios'
 import Link from 'next/link'
 
-function page() {
+function LoginPage() {
   const router = useRouter()
   const [user, setUser] = useState(
     {
@@ -64,4 +64,4 @@ function page() {
   )
 }
 
-export default page
+export default LoginPage
